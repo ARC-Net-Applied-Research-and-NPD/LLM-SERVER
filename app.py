@@ -9,7 +9,6 @@ from newtranscriber import VideoTranscriber
 app = Flask(__name__)
 
 
-
 @app.route("/video_transcribe", methods=["POST"])
 def video_transcribe():
     try:
