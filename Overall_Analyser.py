@@ -4,6 +4,7 @@ from langchain_openai import ChatOpenAI
 import os
 import json
 
+
 api_key = os.getenv("OPENAI_API_KEY")
 model_name = "gpt-4o"
 
