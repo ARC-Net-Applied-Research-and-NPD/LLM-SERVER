@@ -8,6 +8,7 @@ import ffmpeg
 import traceback
 import os
 
+
 class VideoTranscriber:
     def __init__(self, video_file, audio_path, json_path):
         self.video_file = video_file
