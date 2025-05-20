@@ -1,0 +1,10 @@
+moviepy 
+openai-whisper 
+ffmpeg-python 
+groq
+flask
+langchain
+langchain_community
+langchain_core
+langchain_groq
+langchain_openai
