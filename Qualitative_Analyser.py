@@ -11,7 +11,7 @@ import json
 load_dotenv()
 
 api_key = os.getenv("OPENAI_API_KEY")
-MODEL = "gpt-4o"
+MODEL = "o4-mini-high"
 # Mode=""
 
 with open('json/transcription_output.json', 'r') as file:
@@ -73,6 +73,14 @@ def infer_algorithm_from_trace(transcription_input, metrics):
 [207.00s - 222.00s]  And also I am practicing UIUS design side by side with my academics to build up a good and strong code for you to reach the gap in the experience. 
 [222.00s - 231.00s]  And I am confident that my e-carnage to learn and the strong ethics will help me to prove in that track.
 
+Metrics of Audio and Video :
+Posture: Poor
+Smile: 5
+Eye Contact: Poor
+Energy levels through the presentation (Function of Tone , Speed of Speech , Deviation of Volume , Gestures):
+Poor
+
+
 In this case, the output should be like this:
 Qualitative Remarks-Positive
 1) Reasonably confident presentation.
@@ -107,6 +115,14 @@ Qualtitative Remarks-Areas of Improvement
 [147.99s - 150.99s]  which makes me a great team player. 
 [150.99s - 159.99s]  I would like to work for this eminent organization so that I can be the part of the journey where 
 [159.99s - 165.67s]  organization has made great strides in the field of quantitative finance. Thank you very much. 
+
+Metrics of Audio and Video : 
+Posture: 4
+Smile: 3
+Eye Contact: 4
+Energy levels through the presentation(Function of Tone , Speed of Speech , Deviation of Volume , Gestures):
+Needs Improvement
+
 
 In this case, output should be like this:
 Qualitative Remarks-Positive
@@ -149,6 +165,12 @@ Services to manage
 [02:29.460 --> 02:35.060]  adaptability are the exact rates that Google looks for a cloud engineer. [02:35.060 --> 02:40.980]  I am not just ready to join the Google Cloud team, I am also ready to innovate, drive efficiency 
 [02:40.980 --> 02:45.340]  and contribute to the groundbreaking work that defines Google. [02:45.340 --> 02:51.260]  Thank you for the opportunity to share my vision and excitement to be a part of shaping 
 [02:51.260 --> 02:52.940]  the cloud's future at Google. 
+Metrics of Audio and Video :
+Posture : Poor
+Smile : Poor
+Eye Contact : Good
+Energetic Start (Function of Tone , Speed of Speech , Deviation of Volume , Gestures) : Satisfactory
+
 
 In this case, output should be like this:
 Qualitative Remarks-Positive
